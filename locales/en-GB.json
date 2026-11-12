@@ -1,0 +1,260 @@
+{
+  "lang": "en-GB",
+  "title": "StageCom — Stage comms. Simplified. | Singleton-Campbell Limited",
+  "description": "Local live-stage communications. Performers send requests through a browser; engineers acknowledge and complete them. Android host, dedicated Wi-Fi, no internet needed during the show.",
+  "skip": "Skip to content",
+  "brand": "StageCom",
+  "strapline": "STAGE COMMS. SIMPLIFIED.",
+  "navHow": "How it works",
+  "navWorkflow": "The workflow",
+  "navFestival": "Multi-band",
+  "navFaq": "FAQ",
+  "navBeta": "External testing",
+  "menu": "Menu",
+  "close": "Close",
+  "alpha": "IN ALPHA · PREPARING FOR EXTERNAL TESTING",
+  "eyebrow": "LOCAL LIVE-STAGE COMMUNICATIONS",
+  "headline1": "Get the message across.",
+  "headline2": "Keep the show moving.",
+  "heroCopy": "Send monitor requests and stage messages straight to the engineer. Performers join in their browser, with no app to install and no internet or mobile signal needed during the show.",
+  "ctaBeta": "Enquire about testing",
+  "ctaHow": "See how it works",
+  "host": "Android host",
+  "client": "Browser-based performers",
+  "network": "Dedicated local Wi-Fi",
+  "demoLabel": "INTERACTIVE WORKFLOW CONCEPT",
+  "demoDisclaimer": "Illustrative interfaces and example content, not product screenshots. Try the request → acknowledgement → completion flow below. No message is sent.",
+  "performer": "PERFORMER VIEW",
+  "engineer": "ENGINEER VIEW",
+  "demoPerson": "Alex · Keys",
+  "demoStage": "EXAMPLE STAGE",
+  "demoRequest": "A little more clarity.",
+  "demoPrompt": "One request. Multiple adjustments.",
+  "moreKeys": "More keys",
+  "lessTrombone": "Less trombone",
+  "moreVox": "A lot more backing vox",
+  "send": "Send request",
+  "sent": "Request sent",
+  "incoming": "Incoming request",
+  "emptyQueue": "Ready for the next request.",
+  "emptyDetail": "Send the example request from the performer view to see the engineer workflow.",
+  "requestFrom": "Alex · Keys → Monitor engineer",
+  "requestTime": "Example request",
+  "acknowledge": "Acknowledge",
+  "complete": "Mark completed",
+  "reset": "Try again",
+  "waiting": "Waiting for acknowledgement",
+  "acknowledged": "Acknowledged",
+  "completed": "Completed",
+  "statusReady": "Ready to send",
+  "demoSent": "Example request sent. Select Acknowledge in the engineer view.",
+  "demoAck": "The engineer has acknowledged the example request. The performer sees the status change.",
+  "demoComplete": "Example request completed. Both views now show completion.",
+  "demoReset": "Demo reset. Ready to send another example request.",
+  "audienceLabel": "BUILT AROUND THE PEOPLE MAKING THE SHOW",
+  "audience": "Performers · Monitor & FOH engineers · Stage managers · Production teams · Venues · Festivals",
+  "problemKicker": "WHEN THE SHOW IS ALREADY HAPPENING",
+  "problemTitle": "A hand signal only says so much.",
+  "problemCopy": "You need more keys, less trombone and much more backing vocals. The engineer is across the stage. You need to know the message landed—and when it has been dealt with.",
+  "problemResolution": "StageCom gives that exchange a clear path: request, acknowledgement, completion. With two-way messaging when you need to say more.",
+  "howKicker": "FROM JOINING TO JOB DONE",
+  "howTitle": "Scan. Request. Acknowledge. Done.",
+  "howCopy": "The Android host runs the system on a dedicated local Wi-Fi network. Performers bring their existing phone or tablet.",
+  "steps": [
+    {
+      "number": "01",
+      "title": "Connect & scan",
+      "text": "Join the StageCom Wi-Fi, scan the QR code and open StageCom in your normal browser."
+    },
+    {
+      "number": "02",
+      "title": "Identify & request",
+      "text": "Select yourself and send the adjustments or message you need. Combine several changes in one request."
+    },
+    {
+      "number": "03",
+      "title": "Acknowledge & act",
+      "text": "The engineer receives the request and acknowledges it. The performer sees the status change live."
+    },
+    {
+      "number": "04",
+      "title": "Complete & continue",
+      "text": "The engineer marks the request completed. The performer sees the outcome while the show carries on."
+    }
+  ],
+  "installKicker": "NO APP FOR PERFORMERS",
+  "installTitle": "Their phone. Their browser. Ready.",
+  "installCopy": "iPhone, Android phone, iPad or Android tablet: performers use a suitable modern browser. No app-store visit or app maintenance for every artist.",
+  "installNote": "The host/server runs on Android. An iOS host application is not currently available.",
+  "offlineKicker": "LOCAL WI-FI. NO INTERNET DEPENDENCY.",
+  "offlineTitle": "The network stays with the show.",
+  "offlineCopy": "A dedicated router provides the local network. Normal show operation does not depend on internet access, mobile reception or venue Wi-Fi.",
+  "offlineNote": "From festival fields to basements and busy venues: devices still need to be connected to the StageCom Wi-Fi and within its coverage.",
+  "requestKicker": "REQUESTS THAT MAKE SENSE ON STAGE",
+  "requestTitle": "Say exactly what needs to change.",
+  "requestCopy": "Combine adjustments in one request. Configure performers and sources for each band, rather than working around a fixed instrument list.",
+  "requestTypes": [
+    {
+      "class": "green",
+      "label": "More / A lot more",
+      "text": "Ask for a source to come up."
+    },
+    {
+      "class": "amber",
+      "label": "Less / A lot less",
+      "text": "Ask for a source to come down."
+    },
+    {
+      "class": "blue",
+      "label": "I can’t hear…",
+      "text": "Make the missing source clear."
+    },
+    {
+      "class": "red",
+      "label": "Report a problem",
+      "text": "Flag an issue to production."
+    }
+  ],
+  "messageTitle": "And when a button isn’t enough?",
+  "messageText": "Two-way stage messaging adds the context. Ask a question, send a free-text message or confirm that the change helped.",
+  "bubble1": "Thanks, that’s much better.",
+  "bubble2": "Good to hear. Have a great set.",
+  "messageLabel": "ILLUSTRATIVE MESSAGE EXCHANGE",
+  "workflowKicker": "THE ENGINEER WORKFLOW",
+  "workflowTitle": "Understand it. Acknowledge it. Act on it.",
+  "workflowCopy": "Incoming requests, request details and history give the engineer a clear communication workflow. Acknowledgement and completion keep the performer informed without another shout across the stage.",
+  "workflowNote": "A purpose-built communication layer alongside the production workflow. Audio adjustments are made by the engineer using the existing mixing system.",
+  "workflowLink": "Try the workflow concept",
+  "festivalKicker": "ONE BAND TO THE NEXT",
+  "festivalTitle": "Different acts.\nOne organised show.",
+  "festivalCopy": "Manage multiple band configurations on the host. Make one band LIVE for active communication, while other bands remain suspended until needed.",
+  "festivalCopy2": "Use stage messaging to help upcoming acts prepare or load onto stage. Keep the current band’s requests focused on the performance happening now.",
+  "festivalConcept": "ILLUSTRATIVE BAND CONTROL",
+  "band1": "The current act",
+  "band2": "The next act",
+  "band3": "Later on the bill",
+  "live": "LIVE",
+  "suspended": "SUSPENDED",
+  "festivalNote": "Example names and statuses. Band configurations are defined by the user.",
+  "testingKicker": "DEVELOPMENT IN THE REAL WORLD",
+  "testingTitle": "Built for the stage.\nTested during a show.",
+  "testingCopy": "StageCom has already been used successfully during a live performance. A monitor request was read, acted on, acknowledged and completed, with the status updating on the performer’s screen while the performance continued.",
+  "testingNote": "A development experience reported by the founder. No venue or third-party endorsement is implied.",
+  "faqKicker": "THE PRACTICAL QUESTIONS",
+  "faqTitle": "Before the next soundcheck.",
+  "faqs": [
+    {
+      "q": "Does StageCom need internet or mobile signal?",
+      "a": "No internet or mobile signal is required during normal show operation. StageCom uses a dedicated local Wi-Fi network. The host and client devices still need a working connection to that local network."
+    },
+    {
+      "q": "Does every performer need to install an app?",
+      "a": "No. Performers connect to the StageCom Wi-Fi, scan a QR code and use a suitable modern browser on their phone or tablet. They then identify or select themselves in the interface."
+    },
+    {
+      "q": "Which devices run the host?",
+      "a": "The current host/server platform is Android, such as an Android tablet. Performer clients are browser-based and can use iPhone, Android, iPad and other suitable devices. An iOS host app is not currently available."
+    },
+    {
+      "q": "Do we need a router?",
+      "a": "A dedicated router can provide the local Wi-Fi network. Plan coverage for the performance area and connect the host and performer devices to that network. Detailed setup guidance will form part of controlled external testing."
+    },
+    {
+      "q": "Can it handle several bands?",
+      "a": "Yes. The host manages multiple band configurations, with one band made LIVE for active communication. Other bands can remain suspended until needed. Stage messaging can also help coordinate upcoming acts."
+    },
+    {
+      "q": "Does StageCom change the mix?",
+      "a": "StageCom communicates what the performer needs. The engineer makes the audio adjustment through the existing mixing system, then acknowledges and completes the request in StageCom."
+    },
+    {
+      "q": "What about network security?",
+      "a": "The system operates on a dedicated local network. Detailed access controls, router configuration and security guidance need to be confirmed as part of the testing process; we are not making encryption or isolation guarantees here."
+    },
+    {
+      "q": "Can I download it, and what will it cost?",
+      "a": "StageCom is in alpha, preparing for controlled external engineer testing. The likely initial distribution route is a Google Play internal or closed test for the Android host. Public release dates and pricing have not been announced."
+    }
+  ],
+  "betaKicker": "HELP SHAPE THE NEXT STAGE",
+  "betaTitle": "Know your way around\na monitor desk?",
+  "betaCopy": "We’re preparing for controlled external testing. If you’re an engineer, venue or production team interested in trying StageCom, tell us about your setup and the shows you work on.",
+  "betaButton": "Talk to us about testing",
+  "betaNote": "An enquiry starts a conversation. Access and testing arrangements are agreed individually.",
+  "betaEmail": "office@singleton-campbell.co.uk",
+  "betaSubject": "StageCom external testing enquiry",
+  "betaBody": "Hello, I’m interested in StageCom external testing.\n\nMy role:\nTypical shows or venue:\nMy setup:\n\n",
+  "footerDeveloper": "Developed by Singleton-Campbell Limited",
+  "footerCompany": "Company website",
+  "footerContact": "Contact",
+  "footerPrivacy": "Privacy",
+  "footerNote": "StageCom is the current working product name. Alpha development. English (UK).",
+  "copyright": "© 2026 Singleton-Campbell Limited.",
+  "navScreens": "Real screens",
+  "galleryKicker": "INSIDE STAGECOM",
+  "galleryTitle": "The real interface.\nBuilt around the show.",
+  "galleryCopy": "Actual screenshots from the alpha build: performer requests, source selection, engineer responses and stage messaging.",
+  "galleryNote": "Actual alpha screenshots supplied by the developer. Interfaces may change as development continues. Names and band configurations shown are part of the captured setup, not endorsements.",
+  "galleryOpen": "Open full-size screenshot",
+  "heroScreenshotLabel": "ACTUAL ALPHA INTERFACES",
+  "heroPerformerAlt": "Actual StageCom alpha performer interface with More, Less, Can’t Hear, Problem and stage messaging controls",
+  "heroEngineerAlt": "Actual StageCom alpha engineer interface showing an incoming request and acknowledgement controls",
+  "conceptToggle": "Explore the interactive workflow concept",
+  "betaSubmit": "Send testing enquiry",
+  "betaName": "Your name",
+  "betaEmailLabel": "Email address",
+  "betaRole": "Your role / venue",
+  "betaMessage": "Your setup and the shows you work on",
+  "betaFormNote": "Submit directly to the studio through FormSubmit. A security check may appear.",
+  "formPrivacy": "Read our privacy notice.",
+  "screenshots": [
+    {
+      "file": "performer-controls",
+      "width": 943,
+      "height": 2048,
+      "title": "Performer controls",
+      "text": "More, less, can’t hear, problem reporting and messages in one place.",
+      "alt": "Actual StageCom alpha performer interface with More, Less, Can’t Hear, Problem and stage messaging controls"
+    },
+    {
+      "file": "source-selection",
+      "width": 943,
+      "height": 2048,
+      "title": "Select several sources",
+      "text": "Choose the sources you need and add adjustments to a request.",
+      "alt": "Actual StageCom alpha More screen showing several selected sources and backing vocals controls"
+    },
+    {
+      "file": "engineer-requests",
+      "width": 947,
+      "height": 2048,
+      "title": "Engineer requests",
+      "text": "Read incoming requests, acknowledge them and respond from the engineer interface.",
+      "alt": "Actual StageCom alpha engineer interface showing an incoming request and acknowledgement controls"
+    },
+    {
+      "file": "problem-reporting",
+      "width": 943,
+      "height": 2048,
+      "title": "Report a problem",
+      "text": "Flag monitor problems, request stage assistance or add a message.",
+      "alt": "Actual StageCom alpha problem screen showing monitor faults, feedback, urgent volume and stage assistance options"
+    },
+    {
+      "file": "stage-messaging",
+      "width": 947,
+      "height": 2048,
+      "title": "Message the stage",
+      "text": "Select a band and recipients, then send a stage message.",
+      "alt": "Actual StageCom alpha Message to Stage interface with band, recipients and message fields"
+    },
+    {
+      "file": "splash",
+      "width": 1038,
+      "height": 2048,
+      "title": "StageCom alpha",
+      "text": "The current opening screen from the development build.",
+      "alt": "Actual StageCom alpha opening screen with StageCom branding and Hear Each Other wording"
+    }
+  ]
+}
