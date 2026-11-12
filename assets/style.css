@@ -3,3 +3,6 @@
 .form-trap{display:none!important}
 
 .thanks-panel{max-width:760px;padding:30px;border:1px solid #2a536d;border-radius:9px;background:linear-gradient(140deg,#0d2639,#0a1521);margin-bottom:65px}.thanks-check{display:grid;place-items:center;border:1px solid #287088;background:#0a3445;border-radius:50%;width:47px;height:47px;color:#69e1f1;font-size:24px;margin-bottom:20px}.thanks-panel p{color:#abc2d6;font-size:14px}.thanks-panel p a{color:#66d8f1;overflow-wrap:anywhere}.thanks-panel .actions{margin-top:25px}@media(max-width:760px){.thanks-panel{padding:25px;margin-bottom:40px}}
+
+/* Registered company disclosures */
+.company-legal{width:100%;border-top:1px solid #233648;padding-top:19px;margin-top:23px;color:#91a9bd;font-size:10px;line-height:1.9}.company-legal address{font-style:normal;margin-top:5px}.company-legal a{color:#abcddd;text-decoration:underline;text-underline-offset:3px}.company-legal a:hover{color:#16c9ed}.footer .company-legal{margin-top:0}.footer .company-legal p{font-size:10px;color:#91a9bd;margin-top:0}@media(max-width:760px){.company-legal{font-size:10px;line-height:1.85}.company-legal address{margin-top:9px}}

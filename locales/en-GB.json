@@ -256,5 +256,8 @@
       "text": "The current opening screen from the development build.",
       "alt": "Actual StageCom alpha opening screen with StageCom branding and Hear Each Other wording"
     }
-  ]
+  ],
+  "footerLegal": "Singleton-Campbell Ltd · Registered in England and Wales · Company number 14552248.",
+  "footerRegisteredOffice": "Registered office: 2 Burge Meadow, Cotford St Luke, Somerset, United Kingdom, TA4 1QN.",
+  "footerCompanyRecord": "Companies House record"
 }
