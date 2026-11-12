@@ -2,7 +2,7 @@ from pathlib import Path
 import html
 ROOT=Path(__file__).parent
 pages=[('index.html','Home'),('about.html','About'),('projects.html','Projects'),('research.html','R&D'),('contact.html','Contact')]
-def brand():return '<a class="brand" href="index.html" aria-label="Singleton-Campbell Limited home"><span class="mark" aria-hidden="true">sc</span><span>Singleton–Campbell<small>Software development · UK</small></span></a>'
+def brand():return '<a class="brand" href="index.html" aria-label="Singleton-Campbell Limited home"><img class="brand-mark" src="assets/sc-linked.svg" alt="" width="54" height="54"><span>Singleton–Campbell<small>Software development</small></span></a>'
 def arrow():return '<span aria-hidden="true">↗</span>'
 def header(current):
  return '<a class="skip" href="#main">Skip to content</a><div class="wrap"><header>'+brand()+'<button class="menu" aria-expanded="false" aria-controls="navigation">Menu</button><nav id="navigation" aria-label="Main navigation">'+''.join(f'<a href="{url}"'+(' aria-current="page" class="active"' if url==current else ' class="nav-contact"' if label=='Contact' else '')+'>'+label+(' <span aria-hidden="true">↗</span>' if label=='Contact' else '')+'</a>' for url,label in pages)+'</nav></header></div>'
@@ -37,7 +37,7 @@ for file,body in contents.items():
  title=titles[file]+' | Singleton-Campbell Limited'
  desc='Singleton-Campbell Limited is an independent UK software development studio. Explore StageCom and research into connected applications.'
  canonical='https://www.singleton-campbell.co.uk/'+('' if file=='index.html' else file)
- (ROOT/file).write_text('<!doctype html>\n<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'+html.escape(title)+'</title><meta name="description" content="'+desc+'"><meta name="theme-color" content="#060c14"><link rel="canonical" href="'+canonical+'"><meta property="og:title" content="'+html.escape(title)+'"><meta property="og:description" content="'+desc+'"><meta property="og:type" content="website"><meta property="og:url" content="'+canonical+'"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css?v=20261112"><script src="assets/app.js" defer></script><script src="assets/forms.js" defer></script></head><body class="company-page page-'+Path(file).stem+'">'+header(file)+'<main class="wrap" id="main">'+body+'</main>'+footer()+'</body></html>')
+ (ROOT/file).write_text('<!doctype html>\n<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'+html.escape(title)+'</title><meta name="description" content="'+desc+'"><meta name="theme-color" content="#060c14"><link rel="canonical" href="'+canonical+'"><meta property="og:title" content="'+html.escape(title)+'"><meta property="og:description" content="'+desc+'"><meta property="og:type" content="website"><meta property="og:url" content="'+canonical+'"><link rel="icon" href="assets/favicon.svg?v=linked-sc" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css?v=20261112-logo"><script src="assets/app.js" defer></script><script src="assets/forms.js" defer></script></head><body class="company-page page-'+Path(file).stem+'">'+header(file)+'<main class="wrap" id="main">'+body+'</main>'+footer()+'</body></html>')
 print('Generated',len(contents),'pages')
 
 from build_stagecom import build as build_product

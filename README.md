@@ -21,3 +21,7 @@ Contact and StageCom testing enquiries are submitted over HTTPS through FormSubm
 GitHub Pages must be configured for `www.singleton-campbell.co.uk` in repository Settings → Pages before updating DNS. The `www` CNAME target is `fcswassociates.github.io`. Preserve all Microsoft 365 MX, TXT and mail-related CNAME records. `config/CNAME` contains the intended custom domain; the deployment workflow can copy it when `CUSTOM_DOMAIN_ENABLED=true`, but GitHub Pages' custom-domain setting is authoritative for Actions deployments.
 
 The form return URL resolves from the current website URL and supports both the GitHub Pages project path and the custom domain. Future language translations can reuse the StageCom template and locale structure.
+
+## Company identity
+
+The approved Linked Initials logo pairs a transparent cyan interlocking SC vector mark (`assets/sc-linked.svg`) with the Singleton–Campbell wordmark in the company header and footer. The favicon uses the same monogram. StageCom retains its separate waveform identity. The registered company name and address remain in the centred legal footer.
