@@ -6,7 +6,8 @@
   const nextUrl = new URL('../thanks.html', script.src);
   if (!['https:', 'http:'].includes(nextUrl.protocol)) return;
   document.querySelectorAll('form.integrated-form').forEach(form => {
-    if (form.action !== 'https://formsubmit.co/office@singleton-campbell.co.uk') return;
+    const endpoint = new URL(form.action);
+    if (endpoint.origin !== 'https://formsubmit.co') return;
     let field = form.querySelector('input[name="_next"]');
     if (!field) {
       field = document.createElement('input');

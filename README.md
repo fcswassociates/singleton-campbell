@@ -25,3 +25,7 @@ The form return URL resolves from the current website URL and supports both the 
 ## Company identity
 
 The approved Linked Initials logo pairs a transparent cyan interlocking SC vector mark (`assets/sc-linked.svg`) with the Singleton–Campbell wordmark in the company header and footer. The favicon uses the same monogram. StageCom retains its separate waveform identity. The registered company name and address remain in the centred legal footer.
+
+## Reducing repeated address exposure
+
+The Contact and confirmation pages use the enquiry form rather than repeated direct email links. A clear direct company/privacy contact remains in the Privacy notice. Both forms resolve their action from `config/forms.json`; use the recipient’s public FormSubmit replacement action URL here once available. It is not an API key. CAPTCHA remains enabled and the current working recipient action is retained until that replacement is supplied. The email address is still present in the public source and its history, so the change reduces repetition rather than guaranteeing mailbox secrecy or preventing spam.

@@ -1,7 +1,7 @@
 """Build the static StageCom product page from localisable English content."""
 from pathlib import Path
 import html,json,re
-from urllib.parse import urlencode
+from form_config import form_action
 ROOT=Path(__file__).parent
 
 def build():
@@ -12,7 +12,7 @@ def build():
  'steps':''.join('<article><span class="step-number">'+e(x['number'])+'</span><h3>'+e(x['title'])+'</h3><p>'+e(x['text'])+'</p></article>' for x in c['steps']),
  'requestTypes':''.join('<article class="request-type '+e(x['class'])+'"><span class="type-marker" aria-hidden="true"></span><h3>'+e(x['label'])+'</h3><p>'+e(x['text'])+'</p></article>' for x in c['requestTypes']),
  'faqs':''.join('<details><summary>'+e(x['q'])+'<span aria-hidden="true">+</span></summary><p>'+e(x['a'])+'</p></details>' for x in c['faqs']),
- 'betaMail':e('mailto:'+c['betaEmail']+'?'+urlencode({'subject':c['betaSubject'],'body':c['betaBody']})),
+ 'formAction':e(form_action()),
  'demoJson':json.dumps({k:c[k] for k in ['menu','close','sent','send','statusReady','waiting','acknowledged','completed','demoSent','demoAck','demoComplete','demoReset']},ensure_ascii=False).replace('<','\\u003c')
  }
  template=(ROOT/'templates/stagecom.html').read_text()
